@@ -16,6 +16,12 @@ public static void main(String args[]){
 		System.out.println("El modelo es: "+tv.toString());
 		tv.apagar();
 		
+	
+		System.out.println("Usamos polimorfismo con interfaces");
+		OnOff obj=new Auto("Nissan");
+		auto.encender();
+		System.out.println("El modelo es: "+obj);
+		auto.apagar();
 	}
 
 }
